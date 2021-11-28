@@ -31,7 +31,7 @@ img {
 }
 
 .header-nav {
-  background-color: #ffffff;
+  background-color: var(--header-color);
 }
 
 body {
@@ -59,6 +59,17 @@ body {
 
 .pointer {
   cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  bottom: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 /* -----header----- */
@@ -93,7 +104,7 @@ body {
 /* -----hero----- */
 
 .hero-top {
-  background-color: #2f303a;
+  background-color: var(--background-color-accent);
 }
 
 .hero-title {
