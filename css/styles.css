@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--second-title-color);
   background-color: #ffffff;
 }
@@ -61,6 +61,17 @@ img {
   margin-left: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  bottom: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 /*---------------------------------------HEADER-----------------------------------*/
 
 .main-header {
@@ -84,7 +95,7 @@ img {
 }
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -129,10 +140,6 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
-}
-
-.list-item > .header-contact {
-  color: var(--accent-color);
 }
 
 .header .link:hover,
