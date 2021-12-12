@@ -72,6 +72,22 @@ img {
   overflow: hidden;
 }
 
+/*---------------------------------------LOGO-------------------------------------*/
+
+.logo {
+  text-decoration: none;
+  color: var(--main-text-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
 /*---------------------------------------HEADER-----------------------------------*/
 
 .main-header {
